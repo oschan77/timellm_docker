@@ -5,3 +5,9 @@
 4. cd timellm_docker/
 5. sudo chmod +x run_container.sh
 6. ./run_container.sh
+7. docker exec -it timellm /bin/bash
+8. conda env list
+9. conda deactivate
+10. conda activate timellm
+11. cd /home/Time-LLM
+12. bash scripts/TimeLLM_Weather_eval.sh
