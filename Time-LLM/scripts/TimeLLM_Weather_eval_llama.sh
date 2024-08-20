@@ -14,7 +14,7 @@ comment='TimeLLM-Weather'
 accelerate launch --mixed_precision bf16 --main_process_port $master_port run_main.py \
   --task_name long_term_forecast \
   --is_training 0 \
-  --root_path /scratch/PI/cemclo/Time-LLM/dataset/weather/ \
+  --root_path /home/Time-LLM/dataset/weather/ \
   --data_path weather.csv \
   --model_id weather_512_96 \
   --model $model_name \

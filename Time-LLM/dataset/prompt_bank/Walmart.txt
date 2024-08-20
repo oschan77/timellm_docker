@@ -1,0 +1,5 @@
+The dataset contains weekly sales data for a Walmart store, spanning from February 5, 2010, to October 26, 2012. The goal is to analyze and understand how these factors impact the weekly sales over the given time period. The dataset includes various factors that potentially influence the weekly sales, such as:
+
+- IsHoliday: A binary indicator (1 or 0) that denotes whether the week includes a holiday.
+- Fuel_Price: The price of fuel during that week, which might affect consumer spending and travel behavior.
+- MarkDown1, MarkDown2, MarkDown3: Variables representing markdown events (promotions or sales) at Walmart, which can influence customer purchasing patterns.
